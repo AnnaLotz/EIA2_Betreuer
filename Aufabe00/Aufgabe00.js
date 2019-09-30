@@ -3,7 +3,7 @@ var Aufg01;
     window.addEventListener("DOMContentLoaded", init);
     function init() {
         let name = window.prompt("Wie heißt du?", "Name");
-        let begruesung = "Hallo " + name + "!";
+        let begruesung = "Hallo " + name + ", wilkommen bei EIA2!";
         //let container: HTMLElement = document.getElementById("firstDiv");
         //container.innerText = ;
         document.getElementById("firstDiv").innerText = begruesung;
