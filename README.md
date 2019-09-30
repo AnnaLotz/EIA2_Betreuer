@@ -1,3 +1,4 @@
 # EIA2_Betreuer
 
-Erster Test SS19
+WS19/20
+Aufgabe00: https://annalotz.github.io/EIA2_Betreuer/Aufabe00/miniseite.html
