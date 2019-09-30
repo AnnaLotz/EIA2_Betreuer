@@ -1,13 +1,14 @@
-var Aufg01;
-(function (Aufg01) {
+var Aufg00;
+(function (Aufg00) {
     window.addEventListener("DOMContentLoaded", init);
     function init() {
         let name = window.prompt("Wie heißt du?", "Name");
+        if (name == "" || name == "Name") {
+            name = "unbekannter";
+        }
         let begruesung = "Hallo " + name + ", wilkommen bei EIA2!";
-        //let container: HTMLElement = document.getElementById("firstDiv");
-        //container.innerText = ;
         document.getElementById("firstDiv").innerText = begruesung;
         console.log(begruesung);
     }
-})(Aufg01 || (Aufg01 = {}));
+})(Aufg00 || (Aufg00 = {}));
 //# sourceMappingURL=Aufgabe00.js.map
